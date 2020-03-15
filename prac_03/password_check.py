@@ -1,4 +1,12 @@
-password = input("Enter password: ")
+def main():
 
-for i in range(len(password)):
-    print("*", end='')
+MINIMUM_LENGTH = 5
+
+password = input("Enter password: ")
+while len(password) < MINIMUM_LENGTH:
+    print("Password is too short")
+    password = input("Enter password: ")
+
+print('*' * len(password))
+
+main()
