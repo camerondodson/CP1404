@@ -4,7 +4,6 @@ MINIMUM_LENGTH = 5
 
 
 def get_password():
-    global password
     password = input("Enter password: ")
     while len(password) < MINIMUM_LENGTH:
         print("Password is too short")
