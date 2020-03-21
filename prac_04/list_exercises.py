@@ -22,3 +22,10 @@ print("The largest number is {}".format(max(numbers)))
 
 # Find the average of all 5 numbers
 print("The average of the numbers is {}".format(sum(numbers)/5))
+
+usernames = ['jimbo', 'giltson98', 'derekf', 'WhatSup', 'NicolEye', 'swei45', 'BaseInterpreterInterface', 'BaseStdIn', 'Command', 'ExecState', 'InteractiveConsole', 'InterpreterInterface', 'StartServer', 'bob']
+username = input("Enter username: ")
+if username in usernames:
+    print("Access Granted")
+else:
+    print("Access Denied")
