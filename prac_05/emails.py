@@ -15,7 +15,7 @@ def main():
         # Check if the name before the @ is correct
         check_name = input("Is this your name: {}? (Y/n) ".format(name))
         if check_name.upper() != "Y" and check_name != "":
-            # If name is incorrect get the uer to input the correct name
+            # If name is incorrect get the user to input the correct name
             name = input("Enter you name: ")
         email_and_name_dict[email] = name
         email = input("Enter your email: ")
